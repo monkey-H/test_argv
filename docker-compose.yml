@@ -1,0 +1,3 @@
+node:
+  image: docker.iwanna.xyz:5000/busybox
+  command: "hello %%PATH% ##argv1## xegsx ##argv2## .. %%PATH%%
